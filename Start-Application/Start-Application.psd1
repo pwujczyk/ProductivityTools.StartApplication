@@ -12,7 +12,7 @@
 RootModule = 'Start-Application.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.0.7'
+ModuleVersion = '0.0.8'
 
 # ID used to uniquely identify this module
 GUID = '30c9b11c-5192-4f6c-8e5c-52bde2cb184e'
