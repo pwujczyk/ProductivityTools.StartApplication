@@ -152,7 +152,7 @@ function Get-StartApplicationConfigurationKey
 
 function Get-StartApplicationConfigurationCategory
 {
-	return "PSStartAppplication"
+	return "StartAppplication"
 }
 
 function Set-StartApplicationConfigurationPath

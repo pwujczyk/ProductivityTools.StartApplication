@@ -1,4 +1,4 @@
-# ProductivityTools.PSStartApplication
+# ProductivityTools.StartApplication
 
 A PowerShell module to simplify starting, stopping, and auto-launching applications using simple, memorable keys.
 
