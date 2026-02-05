@@ -27,7 +27,7 @@ function CreateFile([string]$configPath)
 function GetConfigurationFile()
 {
 	$configurationKey=Get-StartApplicationConfigurationKey
-	$configFile=Get-Configuration $configurationKey
+	$configFile=Get-MasterConfiguration $configurationKey
 	if ($configFile -eq "" -or $configFile -eq $null)
 	{
 		$scriptPath=$(GetScriptPath) 
@@ -55,7 +55,7 @@ function GetApplicationList()
 {
 	$file = GetConfigurationFile
 	[xml]$ConfigurationFile=[xml](Get-Content $file)
-	$applicationList = $ConfigurationFile.Applications.Application
+	$applicationList = $ConfigurationFile.Processess.Process
 	return $applicationList
 }
 
